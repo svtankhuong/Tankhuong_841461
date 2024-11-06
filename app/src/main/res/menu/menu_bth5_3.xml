@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Hiện bàn phím điện thoại"
+        android:id="@+id/item1"/>
+    <item android:title="Xem danh bạ điện thoại"
+        android:id="@+id/item2"/>
+    <item android:title="Nhắn tin"
+        android:id="@+id/item3"/>
+    <item android:title="Xem google map"
+        android:id="@+id/item4"/>
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383737"
+    tools:context=".Bth4_1"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello world, Menu Activity"
+            android:textColor="#A39999"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="80dp"/>
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:layout_marginBottom="80dp"
+            android:background="#FFFF"
+            app:srcCompat="@drawable/android" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#706666"
+            android:text="Check PopupMenu"
+            android:textColor="#FFFFFF"
+            app:layout_constraintTop_toBottomOf="@id/imageview" />
+</LinearLayout>

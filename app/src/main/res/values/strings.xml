@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tankhuong</string>
+    <string name="android">Android</string>
+    <string name="placeholder">Enter the work here</string>
+</resources>
